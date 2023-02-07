@@ -29,4 +29,6 @@
 // console.log(ArrNums(arr1, arr2));
 
 const arr = require('./arrays')
-console.log(arr);
+const fun = require('./function')
+
+console.log(fun(arr.arr1,arr.arr2));
