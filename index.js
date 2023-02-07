@@ -28,3 +28,5 @@
 // }
 // console.log(ArrNums(arr1, arr2));
 
+const arr = require('./arrays')
+console.log(arr);
