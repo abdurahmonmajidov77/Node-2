@@ -34,7 +34,7 @@
 // console.log(fun(arr.arr1,arr.arr2));
 
 const fs=require('fs')
-fs.readFile('./text.txt', (err,data)=>{
+fs.readFile('./text.txt', 'utf8', (err,data)=>{
     if(err) throw err;
     console.log(data);
 })
